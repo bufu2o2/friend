@@ -46,7 +46,7 @@ html, body{
 #create{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 40px 20px;
+    margin: 30px 20px;
 }
 #create #leftSurvey {
     border-right: grey solid 1px;
@@ -62,7 +62,8 @@ html, body{
     display: grid;
     align-self: center;
     justify-items: center; 
-
+    font-size: 10px;
+    text-align: center;
 }
 #create #leftSurvey .formSurvey #choices{
     width: 80%;

@@ -85,7 +85,6 @@ $("#subBtn").on("click", function(e) {
         });
 
         $.get("/api/friends", (d) => {
-            console.log(d);
             let cindex = ajaxget(d);
             $("#best h2").html(d[cindex].name);
             $("#proimg").attr("src", d[cindex].pic);
